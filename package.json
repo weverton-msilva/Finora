@@ -1,0 +1,31 @@
+{
+  "name": "finora",
+  "version": "1.0.0",
+  "description": "> Backend para gerenciamento financeiro pessoal, desenvolvido com TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weverton-msilva/Finora.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/weverton-msilva/Finora/issues"
+  },
+  "homepage": "https://github.com/weverton-msilva/Finora#readme",
+  "dependencies": {
+    "fastify": "^5.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
